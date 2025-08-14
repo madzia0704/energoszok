@@ -23,6 +23,7 @@ export const products = [
     image: premium,
     name: "Groszek PLUS",
     price: "1619 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "23-27 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -35,6 +36,7 @@ export const products = [
     image: fiolet,
     name: "Groszek PLUS",
     price: "1619 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -47,6 +49,7 @@ export const products = [
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
     price: "1619 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
       { name: "Granulacja", value: "40-80mm" },
@@ -58,6 +61,7 @@ export const products = [
     image: plk,
     name: "Groszek PLUS",
     price: "1499 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
       { name: "Granulacja", value: "6-25mm" },
@@ -70,6 +74,7 @@ export const products = [
     image: solar,
     name: "Groszek PLUS",
     price: "1569 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -82,6 +87,7 @@ export const products = [
     image: img5,
     name: "Ekogroszek GOLD",
     price: "1649 ZŁ",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -93,6 +99,7 @@ export const products = [
     image: img9,
     name: "PELET drzewny FABICH",
     price: "",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "5-19 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -104,6 +111,7 @@ export const products = [
     image: sylva,
     name: "PELLET SYLVA",
     price: "",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "19 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -115,6 +123,7 @@ export const products = [
     image: ruf,
     name: "BRYKIET RUF",
     price: "1100 ZŁ / paleta 960 kg",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -126,6 +135,7 @@ export const products = [
     image: lewpl,
     name: "Ekogroszek SOBIANEK LEW PLUS",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "29-27 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -138,6 +148,7 @@ export const products = [
     image: sobianekpellet,
     name: "PELLET SOBIANEK",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -149,6 +160,7 @@ export const products = [
     image: lew,
     name: "Ekogroszek SOBIANEK LEW",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "29-27 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -161,6 +173,7 @@ export const products = [
     image: pantera,
     name: "Ekogroszek SOBIANEK PANTERA",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "27-25 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -173,6 +186,7 @@ export const products = [
     image: tygrys,
     name: "Ekogroszek SOBIANEK TYGRYS",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "26-24 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -185,6 +199,7 @@ export const products = [
     image: tytan,
     name: "Orzech SOBIANEK TYTAN",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "26-24 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -197,6 +212,7 @@ export const products = [
     image: img1,
     name: "Ekogroszek PLATINUM",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "29 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
@@ -209,6 +225,7 @@ export const products = [
     image: wegielorzech,
     name: "Orzech PRESTIGE",
     price: "CHWILOWY BRAK TOWARU",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "28 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },

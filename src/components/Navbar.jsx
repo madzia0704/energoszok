@@ -29,6 +29,7 @@ const Navbar = () => {
           {
             manuItems.map(item => (
               <Button 
+                key={item.name}
                 component="a" 
                 href={item.href}
                 className="nav-link" 
