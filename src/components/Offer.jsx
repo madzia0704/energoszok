@@ -10,7 +10,7 @@ const Offer = () => {
   return (
     <section id="oferta">
       <div className="card-row">
-          {  products.map((product, index) =>(<Produkt product={product} key={index}/>))}
+          {products.map((product, index) =>(<Produkt product={product} key={index}/>))}
       </div>
     </section>
   )

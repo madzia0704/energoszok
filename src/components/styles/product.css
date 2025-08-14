@@ -11,12 +11,12 @@
   background-color: #fdfdfd;
 }
 
-.brykiet-image {
+.product-image {
   max-width: 300px;
   border-radius: 4px;
 }
 
-.brykiet-info {
+.product-info {
   flex: 1;
 }
 

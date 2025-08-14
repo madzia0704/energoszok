@@ -26,7 +26,6 @@ const ContactMapSection = () => {
         // tabindex="0"
         referrerPolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18728.796820025458!2d15.257131!3d54.071977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b9b2ac14bfe43b3!2sENERGOSZOK.PL!5e0!3m2!1spl!2spl!4v1587304834912!5m2!1spl!2spl"
-                // src="https://www.google.com/maps?q=54.07202682361333,15.257096666144479&hl=pl&z=15&output=embed"
         />
       </Box>
     </Box>

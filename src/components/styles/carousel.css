@@ -2,12 +2,12 @@
   bottom: 20px;
 }
 
-/* powiększenie kropek */
 .slick-dots li button:before {
-  font-size: 16px; /* domyślnie 6px */
-  color: white !important; /* kolor kropek */
+  font-size: 16px;
+  color: white !important;
   z-index: 1000;
 }
+
 /* Zamiana kropek na podłużne kreski */
 .slick-dots li {
   margin: 0 4px; /* odstęp między kreskami */

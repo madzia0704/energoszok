@@ -22,7 +22,7 @@ export const products = [
   {
     image: premium,
     name: "Groszek PLUS",
-    price: "CENA 1619 ZŁ",
+    price: "1619 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "23-27 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -34,7 +34,7 @@ export const products = [
   {
     image: fiolet,
     name: "Groszek PLUS",
-    price: "CENA 1619 ZŁ",
+    price: "1619 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -46,7 +46,7 @@ export const products = [
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
-    price: "CENA 1619 ZŁ",
+    price: "1619 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
       { name: "Granulacja", value: "40-80mm" },
@@ -57,7 +57,7 @@ export const products = [
   {
     image: plk,
     name: "Groszek PLUS",
-    price: "CENA 1499 ZŁ",
+    price: "1499 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
       { name: "Granulacja", value: "6-25mm" },
@@ -69,7 +69,7 @@ export const products = [
   {
     image: solar,
     name: "Groszek PLUS",
-    price: "CENA 1569 ZŁ",
+    price: "1569 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "26 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -81,7 +81,7 @@ export const products = [
   {
     image: img5,
     name: "Ekogroszek GOLD",
-    price: "CENA 1649 ZŁ",
+    price: "1649 ZŁ",
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -114,7 +114,7 @@ export const products = [
   {
     image: ruf,
     name: "BRYKIET RUF",
-    price: "CENA 1100 ZŁ / paleta 960 kg",
+    price: "1100 ZŁ / paleta 960 kg",
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
