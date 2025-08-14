@@ -5,7 +5,7 @@ import ContactSection from "./ContactSection";
 
 const ContactMapSection = () => {
   return (
-    <Box id="kontakt" sx={{ display: "flex", bgcolor: "#2b2b2b", color: "white", p: 4, gap: 4, flexWrap: "wrap" }}>
+    <Box id="kontakt" sx={{ display: "flex", bgcolor: "#2b2b2b", color: "white", p: { xs: 2, sm: 3, md: 4 }, gap: { xs: 2, sm: 3, md: 4 }, flexWrap: "wrap" }}>
       
       {/* Lewa kolumna - informacje kontaktowe */}
       <Box sx={{ flex: 1, minWidth: 300 }}>
@@ -13,9 +13,9 @@ const ContactMapSection = () => {
       </Box>
 
       {/* Prawa kolumna - mapa */}
-      <Box sx={{ flex: 2, minWidth: 300, height: 400 }}>
+      <Box sx={{ flex: 2, minWidth: 200, height: 300 }}>
 
-        <iframe
+      <iframe
         title="EnergoSzok Map"
         width="100%"
         height="100%"

@@ -1,5 +1,5 @@
-// import { Card, CardContent, CardMedia, Typography, FormGroup, FormControlLabel, Checkbox } from '@mui/material';
-// import './styles/product.css';
+import { Card, CardContent, Box, Typography, FormGroup, FormControlLabel, Checkbox } from '@mui/material';
+import './styles/product.css';
 
 // const Produkt = ({product}) => {
 //   const price = product.price.length < 1 ? null : product.price;
@@ -28,50 +28,64 @@
 // export default Produkt;
 
 
-import { Card, CardContent, Box, Typography } from "@mui/material";
 
 const Produkt = ({ product }) => {
   const price = product.price.length < 1 ? null : product.price;
   const available = product.isAvailable
 
+  const UnvailableProductCover = () => (
+    <Box
+      sx={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+        color: 'white',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '1.5rem',
+        fontWeight: 'bold',
+        borderRadius: '8px',
+      }}
+    >
+      Niedostępny
+    </Box>
+  )
+
   return (
     <Card sx={{ width: 500, borderRadius: 2, boxShadow: 3, position: 'relative' }}>
       <CardContent>
-        <Box sx={{ display: 'flex', gap: 2, alignItems: 'flex-start', position: 'relative' }}>
+        <Box sx={{ 
+          display: 'flex',
+          flexDirection: 'row', 
+          gap: 2, 
+          alignItems: 'flex-start', 
+          // position: 'relative',
+          // flexDirection: { xs: 'column', sm: 'row' }, 
+            '@media (max-width:400px)': {
+    flexDirection: 'column',  // na mniejszych ekranach pionowo
+  },
+        }} >
           <Box sx={{ position: 'relative' }}>
             <img
               src={product.image}
               alt={product.name}
               className="product-image"
-              height="280px"
               style={{
+                maxHeight: '280px',
+                maxWidth: '100%',
+                width: '100%', // lub 'auto' – zależnie od potrzeb
+                height: 'auto', // pozwala zachować proporcje
                 borderRadius: '8px',
                 opacity: available ? 1 : 0.5,
                 transition: 'opacity 0.3s',
+                objectFit: 'contain', // lub 'cover' w zależności od efektu
               }}
             />
-
-            {!available && (
-              <Box
-                sx={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  height: '100%',
-                  backgroundColor: 'rgba(0, 0, 0, 0.4)',
-                  color: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '1.5rem',
-                  fontWeight: 'bold',
-                  borderRadius: '8px',
-                }}
-              >
-                Niedostępny
-              </Box>
-            )}
+            {!available && <UnvailableProductCover />}
           </Box>
 
           <Box className="product-info" color={available ? "black": "gray"}>
@@ -79,7 +93,10 @@ const Produkt = ({ product }) => {
 
             {!!price && (
               <Typography variant="body1">
-                <strong>CENA:</strong> {price}
+                {available && <strong>CENA: <span className="price" >{price}</span>{product.price2}
+                </strong> }
+                {!available && <strong>CENA: <span >{price} </span>
+                </strong> }
               </Typography>
             )}
 

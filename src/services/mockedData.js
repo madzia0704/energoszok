@@ -13,7 +13,6 @@ import ruf from "../assets/images/products/ruf.png";
 import sobianekpellet from "../assets/images/products/sobianekpellet.png";
 import solar from "../assets/images/products/solar.png";
 import sylva from "../assets/images/products/sylva.png";
-// import solar from "../assets/images/products/solar.png";
 import tygrys from "../assets/images/products/TYGRYS.png";
 import tytan from "../assets/images/products/TYTAN.png";
 import wegielorzech from "../assets/images/products/wegielorzech.png";
@@ -122,7 +121,8 @@ export const products = [
   {
     image: ruf,
     name: "BRYKIET RUF",
-    price: "1100 ZŁ / paleta 960 kg",
+    price: "1100 ZŁ",
+    price2: " / paleta 960 kg",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
