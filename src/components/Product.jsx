@@ -1,40 +1,27 @@
-import React, { useState } from 'react';
 import { Card, CardContent, CardMedia, Typography, FormGroup, FormControlLabel, Checkbox } from '@mui/material';
-
-import './styles/product.css'; // Dodaj stylizację osobno lub inline
-import img1 from "../assets/images/products/1.jpg";
-import img5 from "../assets/images/products/5.jpg";
-import img9 from "../assets/images/products/9.png";
-import fiolet from "../assets/images/products/fiolet.jpg";
-import lew from "../assets/images/products/LEW.png";
-import lewpl from "../assets/images/products/LEW+.png";
-import orzech from "../assets/images/products/orzech.jpg";
-import pantera from "../assets/images/products/PANTERA.png";
-import ruf from "../assets/images/products/ruf.png";
-import sobianekpellet from "../assets/images/products/sobianekpellet.png";
-import solar from "../assets/images/products/solar.png";
+import './styles/product.css';
 
 const Produkt = ({product}) => {
 const ArtCard = () => (
-                    <Card sx={{ width: 500, borderRadius: 2, boxShadow: 3 }}>
-                      <CardContent>
-                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                  <img 
-                        src={product.image}
-                        alt="Brykiet drzewny RUF" 
-                        className="brykiet-image"
-                        height="280px"
-                    />
-                    <div className="brykiet-info">
-                        <h2>{product.name}</h2>
-                        <p><strong>CENA:</strong>{product.price}</p>
-                        <ul>
-                            {product.descr.map((item, index) =>(<li key={index}><strong>{item.name}:</strong>{item.value}</li>))}
-                        </ul>
-                    </div>
-            </div>
-                      </CardContent>
-                      </Card>
+  <Card sx={{ width: 500, borderRadius: 2, boxShadow: 3 }}>
+    <CardContent>
+      <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
+        <img 
+          src={product.image}
+          alt="Brykiet drzewny RUF" 
+          className="brykiet-image"
+          height="280px"
+        />
+        <div className="brykiet-info">
+          <h2>{product.name}</h2>
+          <p><strong>CENA:</strong>{product.price}</p>
+          <ul>
+              {product.descr.map((item, index) =>(<li key={index}><strong>{item.name}:</strong>{item.value}</li>))}
+          </ul>
+          </div>
+      </div>
+    </CardContent>
+  </Card>
 );
 
   // return (<ProductCard product={product}/>);

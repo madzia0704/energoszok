@@ -4,5 +4,6 @@
   flex-wrap: wrap;         /* Allows wrapping if not enough space */
   gap: 16px;               /* Space between cards */
   padding: 20px;           /* Padding around the entire row */
-  justify-content: flex-start;
+  justify-content: center; 
+  align-items: center;
 }

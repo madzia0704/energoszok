@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Box } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./styles/carousel.css";
 
 import img1 from "../assets/images/image1.jpg";
 import img2 from "../assets/images/prezes.jpg";
@@ -53,7 +54,7 @@ const slides = [
     // },
   ];
 
-  const settings = {
+const settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -65,55 +66,41 @@ const slides = [
   };
 
   return (
-    <>
-    <Box sx={{ maxWidth: "900px", margin: "0 auto", mt: 4 }}>
+            <div class="container">
+            <div class="row">
+                <div class="col-12">
+    <Box sx={{ maxWidth: "900px", margin: "20 auto", mt: 4 }}>
       <Slider {...settings}>
         {slides.map((slide, idx) => (
-          <Box key={idx}>
+          <Box key={idx} sx={{ position: "relative" }}>
             <img
               src={slide.img}
               alt={`Slide ${idx + 1}`}
-              style={{
-                width: "100%",
-                height: "auto",
-                borderRadius: "8px",
-              }}
+              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
             />
-         {/* <div
-            style={{
-              position: "absolute",
-              bottom: "10px",
-            //   left: "10px",
-            //   right: "10px",
-            //   width: "100%",
-              backgroundColor: "rgba(0, 0, 0, 0.5)", // półprzezroczysty czarny
-              color: "white",
-              padding: "20px",
-              fontSize: "1.5rem",
-              textAlign: "center",
-            }}
-          >
-            {slide.text}
-          </div> */}
-                      <div
+            <div
               style={{
                 position: "absolute",
                 bottom: 0,
-                // left: 0,
-                // width: "100%",
-                backgroundColor: "rgba(0, 0, 0, 0.4)",
+                backgroundColor: "rgba(0, 0, 0, 0.2)",
                 color: "white",
                 padding: "20px",
-                textAlign: "center"
+                textAlign: "center",
+                width: "100%",
+                pointerEvents: "none"
               }}
             >
-              <h3 style={{ margin: "0", fontSize: "1.5rem" }}>{slide.title}</h3>
+              <h3 style={{ margin: 0, fontSize: "1.5rem" }}>{slide.title}</h3>
               <p style={{ margin: "5px 0 0", fontSize: "1rem" }}>{slide.subtitle}</p>
+              <br/>
             </div>
           </Box>
         ))}
       </Slider>
+      <br/><br/><br/>
     </Box>
-    </>
+    </div>
+    </div>
+    </div>
   );
 }

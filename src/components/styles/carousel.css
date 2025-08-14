@@ -1,0 +1,33 @@
+.slick-dots {
+  bottom: 20px;
+}
+
+/* powiększenie kropek */
+.slick-dots li button:before {
+  font-size: 16px; /* domyślnie 6px */
+  color: white !important; /* kolor kropek */
+  z-index: 1000;
+}
+/* Zamiana kropek na podłużne kreski */
+.slick-dots li {
+  margin: 0 4px; /* odstęp między kreskami */
+}
+
+.slick-dots li button:before {
+  content: ""; /* usuwamy domyślną kropkę */
+  display: block;
+  width: 25px; /* długość kreski */
+  height: 4px; /* grubość kreski */
+  background-color: white;
+  border-radius: 2px; /* zaokrąglenie końców */
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+  /* background-color: #ffcc00; kolor aktywnej kreski */
+}
+
+.containerbox {
+  display: flex;
+  justify-content: center;
+}
