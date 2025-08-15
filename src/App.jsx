@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ContactMapSection from './components/ContactMapSection';
 import Carousel from './components/Carousel';
 import Navbar from './components/Navbar';
 import Offer from './components/Offer';
+import Contact from './components/Contact';
 
 const App = () => (
   <div>
@@ -12,7 +12,7 @@ const App = () => (
     <Carousel />
     <Header />
     <Offer />
-    <ContactMapSection />
+    <Contact />
     <Footer />
   </div>
 );

@@ -66,27 +66,9 @@ return (
                 <img
                   src={slide.img}
                   alt={`Slide ${idx + 1}`}
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    borderRadius: "8px",
-                    display: "block",
-                  }}
+                  className="slide-image"
                 />
-                <div
-                  style={{
-                    position: "absolute",
-                    bottom: 0,
-                    backgroundColor: "rgba(0, 0, 0, 0.3)",
-                    color: "white",
-                    padding: "20px",
-                    textAlign: "center",
-                    width: "100%",
-                    pointerEvents: "none",
-                    borderBottomLeftRadius: "8px",
-                    borderBottomRightRadius: "8px",
-                  }}
-                >
+                <div className="text-box">
                   <h3 style={{ margin: 0, fontSize: "1.5rem" }}>{slide.title}</h3>
                   <p style={{ margin: "5px 0 0", fontSize: "1rem" }}>{slide.subtitle}</p>
                   <br/>
