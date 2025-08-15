@@ -1,4 +1,3 @@
-
 import img1 from "../assets/images/products/1.jpg";
 import img5 from "../assets/images/products/5.jpg";
 import img9 from "../assets/images/products/9.png";
@@ -28,8 +27,8 @@ export const products = [
       { name: "Granulacja", value: "5-25mm" },
       { name: "Zawartość popiołu", value: "4-6%" },
       { name: "Zawartość siarki", value: "maks. 0,5%" },
-      { name: "Spiekalność", value: "RI=0" }
-    ]
+      { name: "Spiekalność", value: "RI=0" },
+    ],
   },
   {
     image: fiolet,
@@ -41,8 +40,8 @@ export const products = [
       { name: "Granulacja", value: "5-25mm" },
       { name: "Zawartość popiołu", value: "3-5%" },
       { name: "Zawartość siarki", value: "maks. 0,4-0,6%" },
-      { name: "Spiekalność", value: "RI=0" }
-    ]
+      { name: "Spiekalność", value: "RI=0" },
+    ],
   },
   {
     image: orzech,
@@ -53,8 +52,8 @@ export const products = [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
       { name: "Granulacja", value: "40-80mm" },
       { name: "Zawartość popiołu", value: "3%" },
-      { name: "Zawartość siarki", value: "maks. 0,5%" }
-    ]
+      { name: "Zawartość siarki", value: "maks. 0,5%" },
+    ],
   },
   {
     image: plk,
@@ -66,8 +65,8 @@ export const products = [
       { name: "Granulacja", value: "6-25mm" },
       { name: "Zawartość popiołu", value: "maks 7%" },
       { name: "Zawartość siarki", value: "maks. 0,5%" },
-      { name: "Spiekalność", value: "RI=0" }
-    ]
+      { name: "Spiekalność", value: "RI=0" },
+    ],
   },
   {
     image: solar,
@@ -79,8 +78,8 @@ export const products = [
       { name: "Granulacja", value: "5-25mm" },
       { name: "Zawartość popiołu", value: "4-10%" },
       { name: "Zawartość siarki", value: "maks. 0,8%" },
-      { name: "Spiekalność", value: "RI=0" }
-    ]
+      { name: "Spiekalność", value: "RI=0" },
+    ],
   },
   {
     image: img5,
@@ -91,8 +90,8 @@ export const products = [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
       { name: "Zawartość popiołu", value: "3-5%" },
-      { name: "Zawartość siarki", value: "maks. 0,4-0,6%" }
-    ]
+      { name: "Zawartość siarki", value: "maks. 0,4-0,6%" },
+    ],
   },
   {
     image: img9,
@@ -103,8 +102,8 @@ export const products = [
       { name: "Wartość opałowa", value: "5-19 MJ/kg" },
       { name: "Średnica", value: "6mm" },
       { name: "Zawartość popiołu", value: "0.5%" },
-      { name: "Wilgotność", value: "poniżej 6%" }
-    ]
+      { name: "Wilgotność", value: "poniżej 6%" },
+    ],
   },
   {
     image: sylva,
@@ -115,8 +114,8 @@ export const products = [
       { name: "Wartość opałowa", value: "19 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 0,7%" },
-      { name: "Wilgotność", value: "max. 10%" }
-    ]
+      { name: "Wilgotność", value: "max. 10%" },
+    ],
   },
   {
     image: ruf,
@@ -128,8 +127,8 @@ export const products = [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 0,3-1,6%" },
-      { name: "Wilgotność", value: "max. 5-7%" }
-    ]
+      { name: "Wilgotność", value: "max. 5-7%" },
+    ],
   },
   {
     image: lewpl,
@@ -141,8 +140,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 5%" },
       { name: "Wilgotność", value: "max. 12%" },
-      { name: "Zawartość siarki", value: "max 0,6%" }
-    ]
+      { name: "Zawartość siarki", value: "max 0,6%" },
+    ],
   },
   {
     image: sobianekpellet,
@@ -153,8 +152,8 @@ export const products = [
       { name: "Wartość opałowa", value: "18 MJ/kg" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 0,7%" },
-      { name: "Wilgotność", value: "max. 10%" }
-    ]
+      { name: "Wilgotność", value: "max. 10%" },
+    ],
   },
   {
     image: lew,
@@ -166,8 +165,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 5%" },
       { name: "Wilgotność", value: "max. 12%" },
-      { name: "Zawartość siarki", value: "max 0,6%" }
-    ]
+      { name: "Zawartość siarki", value: "max 0,6%" },
+    ],
   },
   {
     image: pantera,
@@ -179,8 +178,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 6%" },
       { name: "Wilgotność", value: "max. 12%" },
-      { name: "Zawartość siarki", value: "max 0,6%" }
-    ]
+      { name: "Zawartość siarki", value: "max 0,6%" },
+    ],
   },
   {
     image: tygrys,
@@ -192,8 +191,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 9%" },
       { name: "Wilgotność", value: "max. 12%" },
-      { name: "Zawartość siarki", value: "max 0,4%" }
-    ]
+      { name: "Zawartość siarki", value: "max 0,4%" },
+    ],
   },
   {
     image: tytan,
@@ -205,8 +204,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "max 9%" },
       { name: "Wilgotność", value: "max. 12%" },
-      { name: "Zawartość siarki", value: "max 0,4%" }
-    ]
+      { name: "Zawartość siarki", value: "max 0,4%" },
+    ],
   },
   {
     image: img1,
@@ -218,8 +217,8 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "3-6%" },
       { name: "Wilgotność", value: "wilgoć całkowita ok. 2-12%" },
-      { name: "Zawartość siarki", value: "0,4-0,8%" }
-    ]
+      { name: "Zawartość siarki", value: "0,4-0,8%" },
+    ],
   },
   {
     image: wegielorzech,
@@ -231,45 +230,45 @@ export const products = [
       { name: "Zastosowanie", value: "Do większości kotłów" },
       { name: "Zawartość popiołu", value: "3-9%" },
       { name: "Wilgotność", value: "wilgoć całkowita ok. 2-12%" },
-      { name: "Zawartość siarki", value: "0,4-0,8%" }
-    ]
+      { name: "Zawartość siarki", value: "0,4-0,8%" },
+    ],
   },
-//   {
-//     image: img2,
-//     name: "Ekogroszek STABEK",
-//     price: "",
-//     descr: [
-//       { name: "Wartość opałowa", value: "24 MJ/kg" },
-//       { name: "Zastosowanie", value: "Do większości kotłów" },
-//       { name: "Granulacja", value: "10-25mm" },
-//       { name: "Spiekalność", value: "RI: 0-1" },
-//       { name: "Wilgotność", value: "wilgoć całkowita ok. 10-15%" },
-//       { name: "Zawartość siarki", value: "maks. 0,4%" }
-//     ]
-//   },
-//   {
-//     image: img3,
-//     name: "Ekogroszek CZARNA PERŁA",
-//     price: "",
-//     descr: [
-//       { name: "Wartość opałowa", value: "22-24 MJ/kg" },
-//       { name: "Zastosowanie", value: "Do większości kotłów" },
-//       { name: "Granulacja", value: "5-25mm" },
-//       { name: "Spiekalność", value: "RI: 0-1" },
-//       { name: "Wilgotność", value: "wilgoć całkowita ok. 12-14%" },
-//       { name: "Zawartość siarki", value: "maks. 0,4%" }
-//     ]
-//   },
-//   {
-//     image: 4,
-//     name: "Ekogroszek MIG 24",
-//     price: "",
-//     descr: [
-//       { name: "Wartość opałowa", value: "24 MJ/kg" },
-//       { name: "Zastosowanie", value: "Do większości kotłów" },
-//       { name: "Granulacja", value: "10-25mm" },
-//       { name: "Spiekalność", value: "RI: 0-1" },
-//       { name: "Zawartość siarki", value: "maks. 0,4%" }
-//     ]
-//   }
+  //   {
+  //     image: img2,
+  //     name: "Ekogroszek STABEK",
+  //     price: "",
+  //     descr: [
+  //       { name: "Wartość opałowa", value: "24 MJ/kg" },
+  //       { name: "Zastosowanie", value: "Do większości kotłów" },
+  //       { name: "Granulacja", value: "10-25mm" },
+  //       { name: "Spiekalność", value: "RI: 0-1" },
+  //       { name: "Wilgotność", value: "wilgoć całkowita ok. 10-15%" },
+  //       { name: "Zawartość siarki", value: "maks. 0,4%" }
+  //     ]
+  //   },
+  //   {
+  //     image: img3,
+  //     name: "Ekogroszek CZARNA PERŁA",
+  //     price: "",
+  //     descr: [
+  //       { name: "Wartość opałowa", value: "22-24 MJ/kg" },
+  //       { name: "Zastosowanie", value: "Do większości kotłów" },
+  //       { name: "Granulacja", value: "5-25mm" },
+  //       { name: "Spiekalność", value: "RI: 0-1" },
+  //       { name: "Wilgotność", value: "wilgoć całkowita ok. 12-14%" },
+  //       { name: "Zawartość siarki", value: "maks. 0,4%" }
+  //     ]
+  //   },
+  //   {
+  //     image: 4,
+  //     name: "Ekogroszek MIG 24",
+  //     price: "",
+  //     descr: [
+  //       { name: "Wartość opałowa", value: "24 MJ/kg" },
+  //       { name: "Zastosowanie", value: "Do większości kotłów" },
+  //       { name: "Granulacja", value: "10-25mm" },
+  //       { name: "Spiekalność", value: "RI: 0-1" },
+  //       { name: "Zawartość siarki", value: "maks. 0,4%" }
+  //     ]
+  //   }
 ];
