@@ -24,10 +24,7 @@ export default defineConfig([
       },
     },
     rules: {
-      // Twoje reguły ESLint
       "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
-
-      // Błędy Prettiera jako błędy ESLint
       "prettier/prettier": "error",
     },
   },
