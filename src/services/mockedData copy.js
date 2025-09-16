@@ -2,8 +2,6 @@ import img1 from "../assets/images/products/1.jpg";
 import img5 from "../assets/images/products/5.jpg";
 import img9 from "../assets/images/products/9.png";
 import fiolet from "../assets/images/products/fiolet.jpg";
-import heros from "../assets/images/products/heros.jpg";
-import hades from "../assets/images/products/hades.png";
 import lew from "../assets/images/products/LEW.png";
 import lewpl from "../assets/images/products/LEW+.png";
 import orzech from "../assets/images/products/orzech.jpg";
@@ -14,15 +12,25 @@ import ruf from "../assets/images/products/ruf.png";
 import sobianekpellet from "../assets/images/products/sobianekpellet.png";
 import solar from "../assets/images/products/solar.png";
 import sylva from "../assets/images/products/sylva.png";
-import pellpine from "../assets/images/products/pellpine.jpeg";
-import katrina from "../assets/images/products/katrina.jpg";
-import bizon from "../assets/images/products/bizon.jpg";
 import tygrys from "../assets/images/products/TYGRYS.png";
 import tytan from "../assets/images/products/TYTAN.png";
 import wegielorzech from "../assets/images/products/wegielorzech.png";
 
 export const products = [
-   {
+  {
+    image: premium,
+    name: "Groszek PLUS",
+    price: "1619 ZŁ",
+    isAvailable: true,
+    descr: [
+      { name: "Wartość opałowa", value: "23-27 MJ/kg" },
+      { name: "Granulacja", value: "5-25mm" },
+      { name: "Zawartość popiołu", value: "4-6%" },
+      { name: "Zawartość siarki", value: "maks. 0,5%" },
+      { name: "Spiekalność", value: "RI=0" },
+    ],
+  },
+  {
     image: fiolet,
     name: "Groszek PLUS",
     price: "1619 ZŁ",
@@ -34,46 +42,7 @@ export const products = [
       { name: "Zawartość siarki", value: "maks. 0,4-0,6%" },
       { name: "Spiekalność", value: "RI=0" },
     ],
-  },  {
-    image: heros,
-    name: "Węgiel Groszek HEROS",
-    price: "1619 ZŁ",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "27-29 MJ/kg" },
-      { name: "Granulacja", value: "5-25mm" },
-      { name: "WORKI", value: "20 kg" },
-      { name: "Zawartość popiołu", value: "3-5%" },
-      { name: "Zawartość siarki", value: "maks. 0,4-0,6%" },
-      { name: "Spiekalność", value: "RI=0" },
-    ],
-  },  {
-    image: hades,
-    name: "Węgiel Groszek HADES",
-    price: "1569 ZŁ",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "26-28 MJ/kg" },
-      { name: "Granulacja", value: "5-25mm" },
-      { name: "WORKI", value: "20 kg" },
-      { name: "Zawartość popiołu", value: "5-8%" },
-      { name: "Zawartość siarki", value: "maks. 0,4-0,6%" },
-      { name: "Spiekalność", value: "RI=0" },
-    ],
-  }, {
-    image: premium,
-    name: "Groszek PLUS",
-    price: "1569 ZŁ",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "23-27 MJ/kg" },
-      { name: "Granulacja", value: "5-25mm" },
-      { name: "Zawartość popiołu", value: "4-6%" },
-      { name: "Zawartość siarki", value: "maks. 0,5%" },
-      { name: "Spiekalność", value: "RI=0" },
-    ],
   },
-
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
@@ -89,7 +58,7 @@ export const products = [
   {
     image: plk,
     name: "Groszek PLUS",
-    price: "1449 ZŁ",
+    price: "1499 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -102,7 +71,7 @@ export const products = [
   {
     image: solar,
     name: "Groszek PLUS",
-    price: "1519 ZŁ",
+    price: "1569 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26 MJ/kg" },
@@ -115,7 +84,7 @@ export const products = [
   {
     image: img5,
     name: "Ekogroszek GOLD",
-    price: "1609 ZŁ",
+    price: "1649 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -127,49 +96,13 @@ export const products = [
   {
     image: img9,
     name: "PELET drzewny FABICH",
-    price: "1299 zł/paleta",
-    isAvailable: true,
+    price: "",
+    isAvailable: false,
     descr: [
-      { name: "Wartość opałowa", value: ">16 MJ/kg" },
+      { name: "Wartość opałowa", value: "5-19 MJ/kg" },
       { name: "Średnica", value: "6mm" },
       { name: "Zawartość popiołu", value: "0.5%" },
       { name: "Wilgotność", value: "poniżej 6%" },
-    ],
-  },
-  {
-    image: pellpine,
-    name: "PELLET drzewny PELLPINE",
-    price: "1299 zł/paleta",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
-      { name: "Średnica", value: "6mm" },
-      { name: "Zawartość popiołu", value: "0.7%" },
-      { name: "Wilgotność", value: "poniżej 10%" },
-    ],
-  },
-{
-    image: bizon,
-    name: "PELLET drzewny BIZON",
-    price: "1379 zł/paleta",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
-      { name: "Średnica", value: "6mm" },
-      { name: "Zawartość popiołu", value: "0.7%" },
-      { name: "Wilgotność", value: "poniżej 10%" },
-    ],
-  },
-{
-    image: katrina,
-    name: "PELLET drzewny KATRINA",
-    price: "1389 zł/paleta",
-    isAvailable: true,
-    descr: [
-      { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
-      { name: "Średnica", value: "6mm" },
-      { name: "Zawartość popiołu", value: "0.7%" },
-      { name: "Wilgotność", value: "poniżej 10%" },
     ],
   },
   {
