@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build && echo www.energoszok.pl > dist/CNAME",
     "deploy": "gh-pages -d dist",
-    "pushdev": "git add -A && git commit -m \"Update develop: `date +'%d-%m-%Y'`\" && hit push origin dev",
+    "pushdev": "git add -A && git commit -m \"Update develop: `date +'%d-%m-%Y'`\" && git push origin develop",
     "release": "npm run build && npm run deploy"
   },
   "dependencies": {
