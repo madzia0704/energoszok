@@ -24,11 +24,12 @@ import haos from "../assets/images/products/haos.webp";
 import excellent from "../assets/images/products/excellent.jpg";
 import premiumselection from "../assets/images/products/premiumselection.jpg";
 import wilk from "../assets/images/products/wilk.jpg";
+
 export const products = [
    {
     image: fiolet,
     name: "Groszek PLUS",
-    price: "1619 ZŁ",
+    price: "1649 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -52,7 +53,7 @@ export const products = [
   },  {
     image: heros,
     name: "Węgiel Groszek HEROS",
-    price: "1599 ZŁ",
+    price: "1649 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -65,7 +66,7 @@ export const products = [
   },  {
     image: hades,
     name: "Węgiel Groszek HADES",
-    price: "1469 ZŁ",
+    price: "1569 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -78,7 +79,7 @@ export const products = [
   },  {
     image: haos,
     name: "Węgiel ORZECH HAOS",
-    price: "1549 ZŁ",
+    price: "1569 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "29-26 MJ/kg" },
@@ -105,7 +106,7 @@ export const products = [
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
-    price: "1619 ZŁ",
+    price: "1649 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
@@ -117,7 +118,7 @@ export const products = [
   {
     image: plk,
     name: "Groszek PLUS",
-    price: "1399 ZŁ",
+    price: "1449 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -143,7 +144,7 @@ export const products = [
   {
     image: img5,
     name: "Ekogroszek GOLD",
-    price: "1649 ZŁ",
+    price: "1669 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -156,7 +157,7 @@ export const products = [
     image: excellent,
     name: "PELLET drzewny EXCELLENT SELECTION",
     price: "1719 zł/paleta",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: ">18 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -177,8 +178,8 @@ export const products = [
   }, {
     image: img9,
     name: "PELET drzewny FABICH",
-    price: "1499 zł/paleta",
-    isAvailable: true,
+    price: "1599 zł/paleta",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: ">16 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -190,7 +191,7 @@ export const products = [
     image: pellpine,
     name: "PELLET drzewny PELLPINE",
     price: "1399 zł/paleta",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -202,7 +203,7 @@ export const products = [
     image: bizon,
     name: "PELLET drzewny BIZON",
     price: "1579 zł/paleta",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -214,7 +215,7 @@ export const products = [
     image: katrina,
     name: "PELLET drzewny KATRINA",
     price: "1589 zł/paleta",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "> 16,5 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -239,7 +240,7 @@ export const products = [
     name: "BRYKIET RUF",
     price: "1100 ZŁ",
     price2: " / paleta 960 kg",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
