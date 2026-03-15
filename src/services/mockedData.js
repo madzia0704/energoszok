@@ -29,7 +29,7 @@ export const products = [
    {
     image: fiolet,
     name: "Groszek PLUS",
-    price: "1649 ZŁ",
+    price: "1689 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -66,7 +66,7 @@ export const products = [
   },  {
     image: hades,
     name: "Węgiel Groszek HADES",
-    price: "1569 ZŁ",
+    price: "1689 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -79,7 +79,7 @@ export const products = [
   },  {
     image: haos,
     name: "Węgiel ORZECH HAOS",
-    price: "1569 ZŁ",
+    price: "1549 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "29-26 MJ/kg" },
@@ -92,7 +92,7 @@ export const products = [
   },{
     image: premium,
     name: "Groszek PLUS",
-    price: "1569 ZŁ",
+    price: "1639 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "23-27 MJ/kg" },
@@ -106,7 +106,7 @@ export const products = [
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
-    price: "1649 ZŁ",
+    price: "1689 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
@@ -118,7 +118,7 @@ export const products = [
   {
     image: plk,
     name: "Groszek PLUS",
-    price: "1449 ZŁ",
+    price: "1599 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -167,7 +167,7 @@ export const products = [
   }, {
     image: premiumselection,
     name: "PELLET drzewny PREMIUM SELECTION",
-    price: "1599 zł/paleta",
+    price: "1699 zł/paleta",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: ">17,5 MJ/kg" },
