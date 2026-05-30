@@ -4,7 +4,7 @@ import logo from "../assets/images/logo2.png";
 const ContactSection = () => {
   const body = [
     "Jeśli chcesz się z nami skontaktować śmiało pisz i dzwoń. Chętnie odpowiemy na wszystkie pytania!",
-    "📞 Tel: Tomasz Gościniak - +48 502 564 445",
+    "📞 Tel: Tomasz Gościniak +48 502 564 445",
     "📍 Adres: Gorzysław 70, 72-320 Nowielice",
   ];
 

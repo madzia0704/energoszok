@@ -29,7 +29,7 @@ export const products = [
    {
     image: fiolet,
     name: "Groszek PLUS",
-    price: "1689 ZŁ",
+    price: "1749 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -41,7 +41,7 @@ export const products = [
   },  {
     image: wilk,
     name: "Groszek WILK",
-    price: "1579 ZŁ",
+    price: "1699 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-29 MJ/kg" },
@@ -53,7 +53,7 @@ export const products = [
   },  {
     image: heros,
     name: "Węgiel Groszek HEROS",
-    price: "1649 ZŁ",
+    price: "1709 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -66,7 +66,7 @@ export const products = [
   },  {
     image: hades,
     name: "Węgiel Groszek HADES",
-    price: "1689 ZŁ",
+    price: "1759 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -79,7 +79,7 @@ export const products = [
   },  {
     image: haos,
     name: "Węgiel ORZECH HAOS",
-    price: "1549 ZŁ",
+    price: "1789 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "29-26 MJ/kg" },
@@ -106,7 +106,7 @@ export const products = [
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
-    price: "1689 ZŁ",
+    price: "1769 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
@@ -131,7 +131,7 @@ export const products = [
   {
     image: solar,
     name: "Groszek PLUS",
-    price: "1519 ZŁ",
+    price: "1619 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26 MJ/kg" },
@@ -144,7 +144,7 @@ export const products = [
   {
     image: img5,
     name: "Ekogroszek GOLD",
-    price: "1669 ZŁ",
+    price: "1718 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -156,7 +156,7 @@ export const products = [
   {
     image: excellent,
     name: "PELLET drzewny EXCELLENT SELECTION",
-    price: "1719 zł/paleta",
+    price: "1749 zł/paleta",
     isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: ">18 MJ/kg" },
@@ -240,7 +240,7 @@ export const products = [
     name: "BRYKIET RUF",
     price: "1100 ZŁ",
     price2: " / paleta 960 kg",
-    isAvailable: false,
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
