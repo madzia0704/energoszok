@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import { Box } from "@mui/material";
+import { useEffect } from "react";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./styles/carousel.css";
@@ -60,7 +62,16 @@ export default function Carousel() {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
+    adaptiveHeight: true,
   };
+
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = img1;
+    document.head.appendChild(link);
+  }, []);
 
   return (
     <div className="container">
@@ -73,8 +84,8 @@ export default function Carousel() {
                   <img
                     src={slide.img}
                     alt={slide.alt}
-                    // width="900"
-                    // height="675"
+                    width="900"
+                    height="675"
                     className="slide-image"
                     loading={idx === 0 ? "eager" : "lazy"}
                     fetchPriority={idx === 0 ? "high" : "auto"}
