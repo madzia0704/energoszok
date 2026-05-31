@@ -73,8 +73,12 @@ export default function Carousel() {
                   <img
                     src={slide.img}
                     alt={slide.alt}
+                    // width="900"
+                    // height="675"
                     className="slide-image"
-                    loading="lazy"
+                    loading={idx === 0 ? "eager" : "lazy"}
+                    fetchPriority={idx === 0 ? "high" : "auto"}
+                    decoding="async"
                   />
                   <div className="text-box">
                     <h3 style={{ margin: 0, fontSize: "1.5rem" }}>

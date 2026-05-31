@@ -26,7 +26,6 @@ const Navbar = () => {
               src={logo}
               width="200px"
               alt="logo"
-              loading="lazy"
             />
           </a>
         </Typography>

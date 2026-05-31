@@ -7,6 +7,7 @@ import {
   FormControlLabel,
   Checkbox,
 } from "@mui/material";
+// import { useEffect, useState } from "react";
 import "./styles/product.css";
 
 const styles = {
@@ -55,7 +56,20 @@ const Produkt = ({ product }) => {
   const price = product.price.length < 1 ? null : product.price;
   const available = product.isAvailable;
 
-  const UnvailableProductCover = () => (
+  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth <= 768);
+  //   };
+
+  //   window.addEventListener("resize", handleResize);
+
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, []);
+
+
+  const UnavailableProductCover = () => (
     <Box sx={styles.unavailable.box}>Niedostępny</Box>
   );
 
@@ -71,12 +85,14 @@ const Produkt = ({ product }) => {
               alt={product.name}
               className="product-image"
               loading="lazy"
+              fetchPriority="low"
+              decoding="async"
               style={{
                 ...styles.card.image,
                 opacity: available ? 1 : 0.5,
               }}
             />
-            {!available && <UnvailableProductCover />}
+            {!available && <UnavailableProductCover />}
           </Box>
 
           <Box className="product-info" color={available ? "black" : "gray"}>
