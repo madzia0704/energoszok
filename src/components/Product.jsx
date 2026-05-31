@@ -70,6 +70,7 @@ const Produkt = ({ product }) => {
               src={product.image}
               alt={product.name}
               className="product-image"
+              loading="lazy"
               style={{
                 ...styles.card.image,
                 opacity: available ? 1 : 0.5,

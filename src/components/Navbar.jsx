@@ -1,5 +1,5 @@
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 
 const Navbar = () => {
   const manuItems = [
@@ -21,7 +21,13 @@ const Navbar = () => {
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6" component="div">
           <a className="navbar-brand" href="#">
-            <img className="logo" src={logo} width="200px" />
+            <img
+              className="logo"
+              src={logo}
+              width="200px"
+              alt="logo"
+              loading="lazy"
+            />
           </a>
         </Typography>
         <div>
