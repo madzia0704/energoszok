@@ -77,10 +77,10 @@ export default function Carousel() {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-12 d-flex justify-content-center">
-          <Box sx={{ width: "100%", maxWidth: 900, mt: 4 }}>
+          <Box sx={{ width: "100%", maxWidth: 900, mt: 4, pb: 6 }}>
             <Slider {...settings}>
               {slides.map((slide, idx) => (
-                <Box key={idx} sx={{ position: "relative" }}>
+                <Box key={idx} sx={{ position: "relative", pb: 2 }}>
                   <img
                     src={slide.img}
                     alt={slide.alt}
@@ -98,14 +98,10 @@ export default function Carousel() {
                     <p style={{ margin: "5px 0 0", fontSize: "1rem" }}>
                       {slide.subtitle}
                     </p>
-                    <br />
                   </div>
                 </Box>
               ))}
             </Slider>
-            <br />
-            <br />
-            <br />
           </Box>
         </div>
       </div>
