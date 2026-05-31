@@ -25,7 +25,7 @@ const Navbar = () => {
               className="logo"
               src={logo}
               width="200px"
-              height="300px"
+              height="97.14px"
               alt="logo"
             />
           </a>

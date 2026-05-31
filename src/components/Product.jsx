@@ -7,7 +7,7 @@ import {
   FormControlLabel,
   Checkbox,
 } from "@mui/material";
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles/product.css";
 
 const styles = {
@@ -56,17 +56,17 @@ const Produkt = ({ product }) => {
   const price = product.price.length < 1 ? null : product.price;
   const available = product.isAvailable;
 
-  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setIsMobile(window.innerWidth <= 768);
-  //   };
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
 
-  //   window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
 
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
 
   const UnavailableProductCover = () => (
