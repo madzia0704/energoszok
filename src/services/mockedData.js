@@ -29,7 +29,7 @@ export const products = [
    {
     image: fiolet,
     name: "Groszek PLUS",
-    price: "1749 ZŁ",
+    price: "2349 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -41,7 +41,7 @@ export const products = [
   },  {
     image: wilk,
     name: "Groszek WILK",
-    price: "1699 ZŁ",
+    price: "2199 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-29 MJ/kg" },
@@ -53,7 +53,7 @@ export const products = [
   },  {
     image: heros,
     name: "Węgiel Groszek HEROS",
-    price: "1709 ZŁ",
+    price: "2369 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -66,7 +66,7 @@ export const products = [
   },  {
     image: hades,
     name: "Węgiel Groszek HADES",
-    price: "1759 ZŁ",
+    price: "2349 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -79,7 +79,7 @@ export const products = [
   },  {
     image: haos,
     name: "Węgiel ORZECH HAOS",
-    price: "1789 ZŁ",
+    price: "2350 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "29-26 MJ/kg" },
@@ -92,8 +92,8 @@ export const products = [
   },{
     image: premium,
     name: "Groszek PLUS",
-    price: "1639 ZŁ",
-    isAvailable: true,
+    price: "1569 ZŁ",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "23-27 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -106,7 +106,7 @@ export const products = [
   {
     image: orzech,
     name: "ORZECH PREMIUM PLUS",
-    price: "1769 ZŁ",
+    price: "2349 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "30 MJ/kg" },
@@ -118,7 +118,7 @@ export const products = [
   {
     image: plk,
     name: "Groszek PLUS",
-    price: "1599 ZŁ",
+    price: "2199 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "26-28 MJ/kg" },
@@ -131,8 +131,8 @@ export const products = [
   {
     image: solar,
     name: "Groszek PLUS",
-    price: "1619 ZŁ",
-    isAvailable: true,
+    price: "1519 ZŁ",
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "26 MJ/kg" },
       { name: "Granulacja", value: "5-25mm" },
@@ -144,7 +144,7 @@ export const products = [
   {
     image: img5,
     name: "Ekogroszek GOLD",
-    price: "1718 ZŁ",
+    price: "2399 ZŁ",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: "27-29 MJ/kg" },
@@ -156,8 +156,8 @@ export const products = [
   {
     image: excellent,
     name: "PELLET drzewny EXCELLENT SELECTION",
-    price: "1749 zł/paleta",
-    isAvailable: false,
+    price: "2299 zł/paleta",
+    isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: ">18 MJ/kg" },
       { name: "Średnica", value: "6mm" },
@@ -167,7 +167,7 @@ export const products = [
   }, {
     image: premiumselection,
     name: "PELLET drzewny PREMIUM SELECTION",
-    price: "1699 zł/paleta",
+    price: "2249 zł/paleta",
     isAvailable: true,
     descr: [
       { name: "Wartość opałowa", value: ">17,5 MJ/kg" },
@@ -240,7 +240,7 @@ export const products = [
     name: "BRYKIET RUF",
     price: "1100 ZŁ",
     price2: " / paleta 960 kg",
-    isAvailable: true,
+    isAvailable: false,
     descr: [
       { name: "Wartość opałowa", value: "18 MJ" },
       { name: "Zastosowanie", value: "Do większości kotłów" },
